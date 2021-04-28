@@ -3,3 +3,13 @@
 // times as the input number
 //
 // Name the function "finalFunction"
+function finalFunction(aNumber)
+{
+    let anArray = [];
+    for(let i = 0; i < aNumber; i++)
+    {
+        anArray.push("" + i);
+    }
+
+    return anArray;
+}
